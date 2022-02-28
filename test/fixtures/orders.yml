@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  creation_date: 2022-02-28 15:01:28
+  ordered_date: 2022-02-28 15:01:28
+  prepared_date: 2022-02-28 15:01:28
+  taken_over_date: 2022-02-28 15:01:28
+  is_paid: false
+  price: 1
+  note: MyText
+
+two:
+  creation_date: 2022-02-28 15:01:28
+  ordered_date: 2022-02-28 15:01:28
+  prepared_date: 2022-02-28 15:01:28
+  taken_over_date: 2022-02-28 15:01:28
+  is_paid: false
+  price: 1
+  note: MyText
