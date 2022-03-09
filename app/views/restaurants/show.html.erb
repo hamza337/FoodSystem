@@ -1,0 +1,14 @@
+<h1><%= @restaurant.name %></h1>
+<p><%= @restaurant.description %></p>
+<p><%= @restaurant.short_description %></p>
+<p><%= @restaurant.is_active %></p>
+<p><%= @restaurant.menu_id %></p>
+
+<ul>
+  <li><%= link_to "Edit", edit_restaurant_path(@restaurant) %></li>
+  <li><%= link_to "Destroy", restaurant_path(@restaurant), data: {
+                    turbo_method: :delete,
+                    turbo_confirm: "Are you sure?"
+                  } %></li>
+</ul>
+
